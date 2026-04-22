@@ -62,8 +62,6 @@ public class StudentServiceImpl implements StudentService {
         return StudentMapper.mapToStudentDto(s);
     }
 
-
-
     public void deleteStudent(Long studentId) {
 
         sr.findById(studentId)
